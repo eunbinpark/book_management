@@ -1,5 +1,5 @@
-/** @jsxImportSource  @emotion/react */
-import { css } from '@emotion/react';
+/** @jsxImportSource @emotion/react */
+import { css } from '@emotion/react'
 import React from 'react';
 
 const input = css`
@@ -14,8 +14,8 @@ const Input = ({ type, placeholder, onChange, name }) => {
     return (
         <>
             <input css={input} 
-            type={type}
-            placeholder={placeholder}
+            type={type} 
+            placeholder={placeholder} 
             onChange={onChange}
             name={name}/>
         </>
